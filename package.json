@@ -1,7 +1,7 @@
 {
     "name": "loopback-telegram-extension",
     "version": "1.0.0",
-    "description": "Telegram bot development support for loopback based on Telegraf",
+    "description": "Loopback Telegram bot development support, based on Telegraf",
     "keywords": [
         "loopback-extension",
         "loopback"
@@ -21,10 +21,11 @@
         "prepublishOnly": "npm run build"
     },
     "repository": {
-        "type": "git"
+        "type": "git",
+        "url": "git+https://github.com/koliberr136a1/loopback-telegram-extension.git"
     },
-    "author": "",
-    "license": "",
+    "author": "KoLiBer",
+    "license": "MIT",
     "files": [
         "README.md",
         "index.js",
@@ -36,7 +37,8 @@
     "dependencies": {
         "@loopback/boot": "^1.2.3",
         "@loopback/context": "^1.12.0",
-        "@loopback/core": "^1.6.0"
+        "@loopback/core": "^1.6.0",
+        "telegraf": "^3.29.0"
     },
     "devDependencies": {
         "@loopback/build": "^1.5.0",
